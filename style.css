@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+}
+
+/* Main Card */
+.card {
+    width: 90%;
+    max-width: 1050px;
+
+    background-color: white;
+
+    border: 2px solid #444;
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Section */
+.image-box {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+/* Tech Fest Text */
+.image-box h1 {
+    position: absolute;
+
+    top: 70px;
+    left: 55px;
+
+    color: white;
+
+    font-size: 48px;
+    font-weight: bold;
+
+    text-shadow: 2px 2px 5px #333;
+}
+
+/* Content */
+.content {
+    padding: 55px 45px 45px;
+}
+
+.content h2 {
+    font-size: 38px;
+    color: #111;
+
+    margin-bottom: 30px;
+}
+
+.content p {
+    font-size: 24px;
+    color: #222;
+
+    margin-bottom: 35px;
+
+    line-height: 1.5;
+}
+
+/* Button */
+button {
+    background-color: #222;
+    color: white;
+
+    border: none;
+    border-radius: 12px;
+
+    padding: 18px 35px;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #444;
+    transform: scale(1.03);
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .card {
+        width: 100%;
+        border-radius: 18px;
+    }
+
+    .image-box {
+        height: 250px;
+    }
+
+    .image-box h1 {
+        top: 35px;
+        left: 25px;
+        font-size: 30px;
+    }
+
+    .content {
+        padding: 30px 25px;
+    }
+
+    .content h2 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+
+    .content p {
+        font-size: 17px;
+    }
+
+    button {
+        font-size: 17px;
+        padding: 14px 25px;
+    }
+}

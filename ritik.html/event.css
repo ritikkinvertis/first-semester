@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e6de;
+    
+}
+table{
+    background-color:aliceblue;
+    width: 100%;
+    
+    
+    
+}
+th{
+   background-color:aqua ;
+   margin: 10px;
+   padding: 10px;
+   
+}
+td{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+}
+caption{
+    
+    color: rgb(118, 3, 34);
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    border:1px solid black;
+    
+    
+}
+h2{
+    text-align: center;
+    color: red
+}
+
+
+label {
+    display: ;
+    font-weight: bold;
+    margin-top: 
+    color: #495057;
+}
+button{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+    background-color: rgb(130, 218, 130);
+}
+textarea{
+    width: 100%;
+    background-color: rgb(240, 239, 239);
+    
+}
+nav{
+    
+    width: 50%;
+}
